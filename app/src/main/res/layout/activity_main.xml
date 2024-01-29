@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="11dp"
+                    android:text="Selamat Siang"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="48dp"
+                    android:backgroundTint="#fff"
+                    android:src="@drawable/notif_icon" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:backgroundTint="#fff"
+                    android:src="@drawable/gear" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DFDCDC"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:src="@drawable/pin_location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="11dp"
+                    android:text="Indonesia"
+                    android:textColor="@color/black" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#DFDCDC"
+                    android:src="@drawable/dropdown" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Spesial event untukmu"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbarSize="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/border_gambar"
+                                android:background="@color/none"
+                                android:scaleType="fitXY"/>
+
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="13dp"
+                                android:layout_marginLeft="14dp"
+                                android:background="@color/none"
+                                android:src="@drawable/gambar_1"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/border_gambar"
+                                android:background="@color/none"
+                                android:scaleType="fitXY" />
+
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="13dp"
+                                android:layout_marginLeft="14dp"
+                                android:background="@color/none"
+                                android:src="@drawable/gambar_2"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/border_gambar"
+                                android:background="@color/none"
+                                android:scaleType="fitXY" />
+
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="13dp"
+                                android:layout_marginLeft="14dp"
+                                android:background="@color/none"
+                                android:src="@drawable/gambar_3"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/border_gambar"
+                                android:background="@color/none"
+                                android:scaleType="fitXY" />
+
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="13dp"
+                                android:layout_marginLeft="14dp"
+                                android:background="@color/none"
+                                android:src="@drawable/gambar_4"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/border_gambar"
+                                android:background="@color/none"
+                                android:scaleType="fitXY" />
+
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="13dp"
+                                android:layout_marginLeft="14dp"
+                                android:background="@color/none"
+                                android:src="@drawable/gambar_5"/>
+                        </FrameLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle_selected"
+                        android:padding="2dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle_idle"
+                        android:paddingTop="3dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="4dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle_idle"
+                        android:paddingTop="3dp"
+                        android:paddingRight="4dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle_idle"
+                        android:paddingTop="3dp"
+                        android:paddingRight="4dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle_idle"
+                        android:paddingTop="3dp"
+                        android:paddingRight="2dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FBBE4A">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Explore Event"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbarSize="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/white"
+                            android:src="@drawable/rectangle_selected"/>
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/white"
+                            android:src="@drawable/rectangle_1"/>
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/white"
+                            android:src="@drawable/rectangle_2"/>
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/white"
+                            android:src="@drawable/rectangle_3"/>
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/white"
+                            android:src="@drawable/rectangle_4"/>
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/white"
+                            android:src="@drawable/rectangle_5"/>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center"
+                android:outlineAmbientShadowColor="@color/black">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/card_bg" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/card_0"
+                    android:layout_gravity="center|top"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22dp"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:text="Rp150.000 - Rp550.000"
+                    android:textColor="@color/black"
+                    android:layout_gravity="bottom|end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22dp"
+                    android:textSize="12sp"
+                    android:text="GWK Cultural Park, Bali"
+                    android:textColor="#7B7B7B"
+                    android:layout_gravity="bottom|start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="50dp"
+                    android:paddingLeft="22dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:text="GWK BALI COUNTDOWN"
+                    android:textColor="@color/black"
+                    android:layout_gravity="bottom|start" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center"
+                android:outlineAmbientShadowColor="@color/black">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/card_bg" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/card_1"
+                    android:layout_gravity="center|top"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22dp"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:text="Rp350.000 - Rp1.525.000"
+                    android:textColor="@color/black"
+                    android:layout_gravity="bottom|end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22dp"
+                    android:textSize="12sp"
+                    android:text="JIExpo Kemayoran, Jakarta Pusat"
+                    android:textColor="#7B7B7B"
+                    android:layout_gravity="bottom|start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="50dp"
+                    android:paddingLeft="22dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:text="JAVA JAZZ FESTIVAL"
+                    android:textColor="@color/black"
+                    android:layout_gravity="bottom|start" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center"
+                android:outlineAmbientShadowColor="@color/black">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/card_bg" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/card_2"
+                    android:layout_gravity="center|top"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22dp"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:text="Rp450.000"
+                    android:textColor="@color/black"
+                    android:layout_gravity="bottom|end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22dp"
+                    android:textSize="12sp"
+                    android:text="JIExpo Kemayoran, Jakarta Pusat"
+                    android:textColor="#7B7B7B"
+                    android:layout_gravity="bottom|start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="50dp"
+                    android:paddingLeft="22dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:text="PESTA PORA"
+                    android:textColor="@color/black"
+                    android:layout_gravity="bottom|start" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center"
+                android:outlineAmbientShadowColor="@color/black">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/card_bg" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/card_3"
+                    android:layout_gravity="center|top"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22dp"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:text="Rp90.000 - Rp190.000"
+                    android:textColor="@color/black"
+                    android:layout_gravity="bottom|end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22dp"
+                    android:textSize="12sp"
+                    android:text="JIExpo Kemayoran, Jakarta Pusat"
+                    android:textColor="#7B7B7B"
+                    android:layout_gravity="bottom|start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="50dp"
+                    android:paddingLeft="22dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:text="JAK-JAPAN MATSURI"
+                    android:textColor="@color/black"
+                    android:layout_gravity="bottom|start" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center"
+                android:outlineAmbientShadowColor="@color/black">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/card_bg" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/card_4"
+                    android:layout_gravity="center|top"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22dp"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:text="Rp50.000 - Rp185.000"
+                    android:textColor="@color/black"
+                    android:layout_gravity="bottom|end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22dp"
+                    android:textSize="12sp"
+                    android:text="JIExpo Kemayoran, Jakarta Pusat"
+                    android:textColor="#7B7B7B"
+                    android:layout_gravity="bottom|start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="50dp"
+                    android:paddingLeft="22dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:text="INDONESIA INTERNATIONAL MOTOR SHOW"
+                    android:textColor="@color/black"
+                    android:layout_gravity="bottom|start" />
+            </FrameLayout>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/none"
+                android:layout_gravity="center"
+                android:src="@drawable/see_more" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trailer, wawancara, dan lainnya!"
+                android:textColor="#7B7B7B"
+                android:paddingLeft="10dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="90dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/nav_bar"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#EAE5E5"
+            app:itemIconTint="@color/black"
+            app:itemTextColor="@color/black"
+            app:itemTextAppearanceActiveBoldEnabled="true"
+            app:itemActiveIndicatorStyle="@color/selected_navBar"
+            app:menu="@menu/bottom_nav_menu" />
+    </LinearLayout>
+
+</RelativeLayout>
